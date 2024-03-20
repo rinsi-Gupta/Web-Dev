@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Emoji&family=Poppins:wght@400;700&family=Roboto:ital,wght@0,700;1,400&display=swap');
+
+#special {
+    font-family: cursive;
+    font-weight: 900;
+    /* font-style: italic; */
+    font-style: oblique;
+    font-variant: small-caps;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+#special2 {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+    line-height: 32px;
+    /* text-align: justify; 
+    left, right and center; */
+}

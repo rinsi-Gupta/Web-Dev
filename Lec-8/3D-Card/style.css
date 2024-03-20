@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    perspective: 800px;
+}
+
+.container {
+    height: 300px;
+    width: 280px;
+    border: 2px solid black;
+    margin: 50px auto;
+    transition-duration: 0.5s;
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+.photo, .content {
+     width: 100%;
+     height: 100%;
+     position: absolute;
+}
+
+.photo {
+    background-color: burlywood;
+    background: url(https://www.bollywoodhungama.com/wp-content/uploads/2023/01/Hrithik-Roshan-opens-up-about-620.jpg);
+    background-size: cover;
+
+}
+
+.container:hover {
+    transform: rotateY(180deg);
+}
+
+.content {
+    background-color: bisque;
+    font-size: 1.2rem;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
+
+

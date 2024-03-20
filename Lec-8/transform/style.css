@@ -1,0 +1,18 @@
+.container {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    background-color: aqua;
+    /* translate: 400px; */
+}
+.container:hover {
+    /* transform: translateX(400px); */
+    /* transform: rotateZ(45deg); */
+    /* transform: rotateX(90deg); */
+    /* transform: rotateY(90deg); */
+    /* transform: scaleX(2);
+    transform: scale(1); */
+    transform: scale3d(2);
+    /* transform: scaleY(2); */
+    transform: skew(25deg);
+}
